@@ -1,0 +1,1634 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Herbologynuxo | Cookie Policy</title>
+
+  <meta property="og:title" content="Herbologynuxo | Cookie Policy" />
+  <meta property="og:image" content="logo-main.svg"/>
+  
+  <meta property="og:description" content="Herbologynuxo | Cookie Policy">
+  <meta name="description" content="Herbologynuxo | Cookie Policy">
+  
+      
+
+  <link rel="shortcut icon" href="logo-main.svg" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/css2?family=Mate:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" /> 
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body{
+        direction: ltr;
+        font-family: 'Mate', sans-serif !important;
+        font-size: 17px;
+        margin: 0;
+        padding: 0px;
+        line-height: 1.2;
+        position: relative;
+      }
+
+      :root{
+        --accent-1: #d63d00;      
+        --color-1: #f8f5ee;
+        --text-color-1: #b9cdbe;     
+        --background-1: #042729; 
+        --background-alt-1: #46062b; 
+        --price-color-1: #00c896;
+
+
+        --accent-2: #0077cc;
+        --color-2: #e5f6ff;
+        --text-color-2: #a8cce6;
+        --background-2: #021f30;
+        --background-alt-2: #073a57; 
+        --price-color-2: #00e0ff;
+
+
+        --accent-3: #3fbf6b;
+        --color-3: #f0fff8;
+        --text-color-3: #b7dfc9;
+        --background-3: #023524;
+        --background-alt-3: #06513b;
+        --price-color-3: #5fff9d;
+   
+
+        --background: var(--background-2);
+        --background-alt: var(--background-alt-2);
+        --accent: var(--accent-2);
+        --color: var(--color-2);
+        --text-color: var(--text-color-2);
+        --price-color:var(--price-color-2);
+        }
+
+      a {
+        cursor: pointer;
+        text-decoration: none;
+        color: unset;
+      }
+
+      img{
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        } 
+
+      ul{
+        margin: 0;
+        padding: 0;
+      }
+              
+      .container {
+        padding-left: 11px;
+        padding-right: 11px;
+        margin-left: 270px;
+        margin-right: 270px;
+        width: -webkit-fill-available;
+      }
+
+      .section {
+        padding: 75px 0;
+      }
+
+      @media screen and (min-width: 320px) and (max-width: 991px) {
+        .container {
+          margin-left: 0;
+          margin-right: 0;
+          padding-left: 15px;
+          padding-right: 15px;
+        }
+      }
+
+        @media screen and (min-width: 992px) and (max-width: 1999px){          
+            .container {
+              margin-left: 130px;
+              margin-right: 130px;
+              padding-left: 16px;
+              padding-right: 16px;
+              
+          }
+        }
+
+        @media screen and (min-width: 992px){
+          .container {
+            border-radius: 0 0 10px 10px;
+          }
+        }
+
+        .link {
+            text-decoration: none;
+        }
+
+        .link:hover,
+        .link:focus {
+            color: inherit;
+            cursor: pointer;
+        }
+        .list {
+            list-style: none;
+        }
+        .wrapper {
+            overflow: hidden;
+        }
+
+
+
+.header {
+  position: fixed;  
+  height: 94px;
+  padding: 16px 40px;   
+  display: flex;
+  column-gap: 50px;
+  justify-content: space-between;
+  align-items: center;  
+  z-index: 1000;
+  background-color:transparent;
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color:var(--color);
+}
+
+.header.scrolled {
+   background-color: var(--background);    
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo { 
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+  height: 29px;
+  margin: 7px;
+}
+
+.logo div {
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 1.2;
+  color: var(--price-color);
+}     
+
+.nav-links {
+  display: flex;         
+  flex-wrap: wrap;
+  column-gap: 30px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-link {
+  list-style: none;    
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.nav-link.active {
+  color: var(--price-color);
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.nav-icon{
+  width: 35px;
+  height: 30px;
+  margin: 10px 10px;
+  position: relative;
+  cursor: pointer;  
+}
+
+.nav-icon span{
+  background-color:var(--text-color);
+  position: absolute;
+  border-radius: 2px;
+  transition: .3s cubic-bezier(.8, .5, .2, 1.4);
+  width:100%;
+  height: 4px;
+  transition-duration: 500ms
+}
+
+.nav-icon span:nth-child(1){
+  top:0px;
+  left: 0px;
+}
+
+.nav-icon span:nth-child(2){
+  top:13px;
+  left: 0px;
+  opacity:1;
+}
+
+.nav-icon span:nth-child(3){
+  bottom:0px;
+  left: 0px;
+}
+
+.nav-icon.active span:nth-child(1){
+  transform: rotate(45deg);
+  top: 13px;
+}
+
+.nav-icon.active span:nth-child(2){
+  opacity:0;
+}
+
+.nav-icon.active span:nth-child(3){
+  transform: rotate(-45deg);
+  top: 13px;
+}
+
+.call-button {
+  max-width: 215px;
+  background-color: var(--accent);
+  color: var(--price-color);
+  border: solid 1px;
+  border-color: var(--color);
+  border-radius: 4px;
+  padding: 13px 26px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.call-button:hover {
+    background-color: var(--color);
+    color: var(--accent);
+}
+
+@media (max-width: 768px) {
+  .header {
+      padding: 11px;
+      column-gap: 20px;
+  } 
+
+  .nav {
+    display: none; 
+  }
+
+  .nav-links {
+    display: block;
+    padding: 32px;
+  }
+
+  .nav-link{
+    margin-bottom: 35px;
+    padding: 20px 0;
+    border-bottom: solid 0.5px  var(--text-color);
+  }
+
+  .logo {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    font-size: 13px;
+  }
+
+  .logo p {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .menu-toggle {
+    display: block;
+    order: 2;
+    color: var(--price-color); 
+    z-index: 9999;               
+  }
+  .menu-toggle:hover {
+   color: var(--price-color);
+  }
+  .nav.active {
+    display: block;
+    position: fixed;
+    top: 94px;
+    right: 0;
+    width: 100vw;    
+    background-color:var(--background);
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .call-button{ 
+    max-width: 160px;             
+    padding: 6px 12px;
+    font-size: 12px;
+    order: 1;
+  }
+}
+
+
+
+
+  .hero { 
+    display: flex;
+    position: relative;
+    padding: 95px 0;   
+    background-color: var(--background);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }  
+
+  .sphere {
+    position: absolute;
+}
+
+.sphere-1 {
+    bottom: -200px;
+    left: -200px;
+    width: 500px;
+    height: 500px;
+}
+
+.sphere-2 {
+    top: -150px;
+    right: -150px;
+    width: 400px;
+    height: 400px;
+}
+
+  .hero-content {
+    margin-top: 100px;
+    padding: 20px;
+    position: relative;
+    z-index: 1;    
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;   
+    background-color: var(--background); 
+    border-radius: 10px;   
+  }  
+
+  .content-wrapper {
+    text-align: left; 
+    max-width: 600px;
+    width: 50%;
+   
+}
+
+  .hero-title {
+    margin-bottom: 20px;
+    color: var(--color);
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.2; 
+  }
+
+  .hero p {
+    color: var(--text-color);
+    margin-bottom: 30px;      
+    font-size: 18px;
+    
+}
+
+  .hero a {
+    width: auto;
+}
+
+.video-container {
+  width: 50%; 
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.video {
+  aspect-ratio: 16 / 10;
+  width: 100%;  
+  margin-bottom: -30px;
+}
+
+
+@media (max-width: 600px) {
+  .sphere-1 {
+      width: 300px;
+      height: 300px;
+      bottom: -150px;
+      left: -150px;
+  }
+  
+  .sphere-2 {
+      width: 250px;
+      height: 250px;
+      top: -100px;
+      right: -100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero{
+    padding: 30px;
+  } 
+  .content-wrapper {
+    width: 100%;
+    padding: 0;
+  } 
+  .video-container{
+    width: 100%;
+  } 
+
+  .hero-title {
+    font-size: 26px;
+  }
+
+  .hero p {
+      font-size: 18px;
+  } 
+  
+  .hero-content {    
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    padding-top: 60px;
+  }  
+
+  .video {
+    max-height: 140px;
+    margin: 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width:1024px) {
+  .hero{
+    padding: 97px 15px;
+  }
+  .hero-content{
+    margin: 100px 0 0 0;
+  }
+  .hero-title{
+    font-size: 46px;
+  }
+  .video {
+    max-height: 200px;
+  }
+}
+
+
+
+
+.stats {
+  position: relative;
+  display: flex;
+  background-color:var(--color);
+  padding: 95px 0; 
+  text-align: center;
+  color: var(--background);
+  overflow: hidden;
+}
+
+
+.stats-content {
+    position: relative;
+    display: flex;
+    padding: 60px;  
+    column-gap: 20px;  
+    justify-content: center;
+    align-items: center;
+    background-color: var(--text-color);
+    border-radius: 10px;
+    
+}
+
+.stats-section {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    height: 325px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.stats-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    visibility: hidden;
+}
+
+.stats-box.slide[data-slide="0"] {
+    opacity: 1;
+    visibility: visible;
+}
+
+.stats-number {
+    font-size: 80px;
+    font-weight: bold;
+    color: #e74c1e;
+    line-height: 1;
+}
+
+.plus {
+    font-size: 60px;
+}
+
+.stats-label {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #e74c1e;
+}
+
+.play-button {
+    margin: 30px 0;
+}
+
+.play-button button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.play-button button:hover {
+    transform: scale(1.1);
+}
+
+.pagination {
+    display: flex;
+    gap: 8px;
+    margin-top: 26px;
+    justify-content: center;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dot.active {
+    background-color: #e74c1e;
+}
+
+.info-section {
+    flex: 1.5;
+    min-width: 300px;
+    padding: 20px;
+}
+
+.stats-title {
+    font-size: 42px;
+    font-weight:900;    
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.learn-more {
+    background: none;
+    border: 1px solid #0a2b2e;
+    color: #0a2b2e;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.learn-more:hover {
+    background-color: #0a2b2e;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .stats {
+      padding: 30px;
+    }
+    
+    .stats-content {
+      flex-direction: column;
+    }
+    
+    .stats-section {
+      min-width: 240px;
+    }
+    .stats-title {
+        font-size: 28px;
+    }
+    
+    .stats-number {
+      margin: 12px;
+      font-size: 60px;
+    }
+    
+    .plus {
+      font-size: 40px;
+    }
+    
+    .slider-container {
+        height: 180px;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width:1024px) {
+.stats-title{
+  font-size: 34px;
+  }
+}
+
+.article-section {
+  position: relative;
+  display: flex;
+  background-color: var(--accent);
+  color: var(--color);
+  padding: 95px 0; 
+  overflow: hidden;
+}
+.artical-sphere-1 {
+    bottom: -200px;
+    left: -51px;
+    width: 600px;
+    height: 500px;
+}
+
+.artical-sphere-2 {
+    top: -2%;
+    right: -100px;
+    width: 400px;
+    height: 400px;
+}
+.artical-container { 
+  padding: 30px;
+  z-index: 2;
+  background-color: var(--accent);
+  border-radius: 10px;
+}
+
+.artical-content {   
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.article-title {
+  font-size: 42px;
+  font-weight:900;    
+  margin-bottom: 20px;
+  justify-self: right; 
+}
+
+.artical-description-wrap {
+  overflow: hidden; 
+}
+
+.artical-image {
+  float: left;
+  width: 40%;
+  margin: 20px 20px 0 0 ;
+  shape-outside: margin-box; 
+}
+
+.artical-price {
+  display: inline-block;        
+  padding: 11px;
+  margin-top: 25px;
+  background-color: transparent;
+  color: var(--background-alt);
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: 500;
+  border: none;    
+  transition: background-color 0.3s;
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: var(--color);
+}
+
+.artical-price:hover {
+  color: var(--accent);
+  background-color: var(--text-color);
+}
+
+.artical-description {
+    color:var(--color);
+    font-size: 19px;
+    line-height: 1.8;   
+}
+.artical-description li {
+  margin: 0 30px;
+}
+
+@media (max-width: 768px) {
+  .article-title {
+    font-size: 28px;
+  }
+  .artical-sphere-1{
+    width: 340px;
+    height: 340px;
+  }
+  .artical-price {
+    font-size: 14px;
+  }
+  .artical-image{
+    float: none;
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media (min-width: 769px) and (max-width:1024px) {
+.article-title{
+  font-size: 34px;
+  }
+}
+
+
+.reasons-section{ 
+  position: relative;
+  display: flex;
+  background-color: var(--background-alt);
+  color: var(--color);
+  padding: 95px 0; 
+  overflow: hidden;
+} 
+
+.reasons-container {
+  padding: 30px;
+  z-index: 2;
+  background-color: var(--background-alt);
+  border-radius: 10px;
+}
+
+.reasons-content {
+  position: relative;
+  display: flex;
+  padding: 60px;  
+  column-gap: 32px;  
+  justify-content: center;
+  align-items: center;   
+  border-radius: 10px;    
+}
+
+.reasons-title {
+  font-size: 42px;
+  font-weight:900;    
+  margin-bottom: 20px;
+}
+
+.reasons-description {
+  width: 50%;
+}
+
+.reasons-image {
+  float: left;  
+  margin: 20px 20px 0 0 ;
+  shape-outside: margin-box; 
+}
+
+.reasons-description-wrap{
+  width: 50%;
+}
+.reasons-list li{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-size: 25px; 
+}
+.reasons-list li:not(:last-child) {
+  border-bottom: 1px solid var(--accent);
+}
+.toggle-icon{
+    font-size: 36px;
+     margin-right: 32px;
+  }
+
+@media (max-width: 768px) {
+  .reasons-content{
+    flex-direction: column;
+    padding: 0;
+  }
+  .reasons-description{
+    width: 100%;
+  }
+  .reasons-description-wrap{
+    width: 100%;  
+  }
+  .reasons-title {
+    font-size: 28px;
+  }
+  
+  .reasons-image{
+    display: none;
+  }
+  .reasons-list li{
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 769px) and (max-width:1024px) {
+.reasons-title{
+  font-size: 34px;
+  }
+}
+
+
+.tarif{
+  position: relative;
+  display: flex;
+  background-color: var(--color);
+  padding: 88px 0;
+  text-align: center;
+  color: var(--background);
+  overflow: hidden;
+}
+.tarif-sphere-1 {
+    bottom: -200px;
+    left: -51px;
+    width: 600px;
+    height: 500px;
+}
+
+.tarif-sphere-2 {
+    top: -2%;
+    right: -100px;
+    width: 400px;
+    height: 400px;
+}
+.tarif-container{
+  padding: 0px;
+  z-index: 2;
+  background-color: var(--color);
+  border-radius: 10px; 
+}
+
+.tarif-list {
+  display: flex;
+  gap: 54px;
+  justify-content: space-around;
+}
+
+.tarif-slider-wrapper {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    scroll-padding: 20px;
+  }
+
+.tarif-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0 0 calc(50% - 10px);
+  background: white;
+  padding: 30px;
+  border-left: 10px solid var(--bcg-2);
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+}
+
+.price-tarif {
+  font-size: 42px;
+  font-weight: 900;
+  margin-bottom: 29px;
+  color: var(--price-color);
+}
+
+.name-tarif {
+  font-size:  26px;
+  font-weight: 500;
+  margin-bottom: 29px;
+}
+
+.tarif-service p {
+  color: var(--background);   
+}
+
+.tarif-button{
+  display: block;
+  margin-top: 12px;
+  background-color: var(--accent);
+  padding: 13px 26px;
+  font-size: 19px;
+  color: var(--price-color);
+  text-align: center;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: var(--color);
+}
+
+.tarif-button:hover{
+  border-color: var(--accent);  
+  background-color: var(--color);
+  color: var(--accent);
+}
+
+
+ @media (max-width: 768px) {
+    .tarif-item {
+      flex: 0 0 100%;
+    }
+    .price-tarif {
+      font-size: 28px;     
+    }
+    .tarif-service p {
+  font-size: 17px;    
+    }
+    .tarif-button {
+      padding: 9px 18px;
+      font-size: 17px;
+    }
+  }
+
+
+.gallery{
+  direction: initial;
+  position: relative;
+  display: flex;
+  background-color: var(--background-alt);
+  color: var(--text-color);
+  padding: 95px 0; 
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.gallery-title {
+  align-self: center;
+}
+
+.gallery-title h2{
+  font-size: 42px;
+  font-weight:900;    
+  margin-bottom: 20px;
+}
+
+ .carousel {
+      display: flex;
+      gap: 20px;
+      perspective: 1000px;
+      animation: moveCarousel 10s linear infinite alternate;
+      
+    }
+
+    .card {
+      cursor: pointer;
+      width: 325px;
+      height: 215px;
+      perspective: 1000px;      
+    }
+
+    .inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transition: transform 0.8s;
+      transform-style: preserve-3d;
+    }
+
+    .card.flipped .inner {
+      transform: rotateY(180deg);
+    }
+
+    .front, .back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .front img, .back img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .back {
+      background: #fff;
+      color: #042729;
+      transform: rotateY(180deg);
+      display: flex;     
+    }
+
+    @keyframes moveCarousel {
+      0% { transform: translateX(40px); }
+      100% { transform: translateX(-520px); }
+    }
+
+@media (max-width: 1200px) {
+  .card {
+    width: 280px;
+    height: 185px;
+  }
+
+  @keyframes moveCarousel {
+    0% { transform: translateX(-4%); }
+    100% { transform: translateX(-48%); }
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel {
+
+    scroll-snap-type: x mandatory;
+  }
+
+  .card {
+    width: 240px;
+    height: 160px;
+    scroll-snap-align: center;
+  }
+
+   @keyframes moveCarousel {
+    0% { transform: translateX(-4%); }
+    100% { transform: translateX(-60%); }
+  }
+}
+
+
+@media (max-width: 480px) {
+  .card {
+    width: 200px;
+    height: 140px;
+  }
+
+   @keyframes moveCarousel {
+    0% { transform: translateX(-4%); }
+    100% { transform: translateX(-80%); }
+  }
+}
+
+.comments-section {
+  position: relative;
+  display: flex;
+  background-color: var(--text-color);
+  color: var(--background);
+  padding: 84px 0;
+  overflow: hidden;
+}
+
+.comments-container{
+  position: relative;
+  z-index: 2;
+  display: flex;
+  padding: 60px;
+  column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--text-color);
+  border-radius: 10px;
+}
+
+.comments-title {
+  flex: 1.5;
+  min-width: 300px;
+  padding: 20px;
+  font-size: 42px;
+  font-weight:900;    
+  margin-bottom: 20px;
+
+}
+.comments-content{
+  flex: 1;
+  min-width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 29px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.comment {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.avatar img{
+  width: 100px;
+  height: 100px; 
+  border-radius: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:0 25px; 
+}
+
+.comment-body {
+  flex: 1;
+}
+
+.comment-author {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: var(--accent);
+}
+
+.comment-text {
+  line-height: 1.2;
+}
+
+@media (max-width: 768px) {
+  .comments-section{
+    padding: 30px;
+  }
+  .comments-title {
+    font-size: 28px;
+  }
+  .comments-container{
+    padding: 0;
+    flex-direction: column;
+  }
+  .avatar{
+    display: none;
+  }
+  .comment-text{
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 769px) and (max-width:1250px) {
+.comments-title{
+  font-size: 34px;
+  }
+  .comments-container{
+    flex-direction: column;
+  }
+}
+
+
+ 
+.contact-section {
+  position: relative;
+  display: flex;
+  background-color: var(--background);
+  color: var(--text-color);
+  padding: 95px 0; 
+  overflow: hidden;
+}
+
+.contact-container {
+  z-index: 2;  
+  padding: 30px;
+  column-gap: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background);
+  border-radius: 10px;
+}
+
+.contact-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 130px;
+}
+
+.contact-card {
+  flex: 1; 
+  justify-items: center;
+}
+
+ .contact-title {
+  font-size: 28px;
+  font-weight: 500; 
+  margin-bottom: 30px;
+  justify-self: center;
+  color: var(--color);
+} 
+
+a.contact-flex:hover {
+  color: var(--accent);
+}
+
+.form-text-wrapper div{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;  
+}
+.contact-flex{
+  flex: 1;  
+  margin: 0;
+}
+
+ @media (max-width: 767.98px) {
+  .form-text-wrapper div {
+    flex-direction: column;
+  }
+  .contact-form {
+    flex-direction: column;
+  }
+}
+
+.form-text-wrapper div:last-child {
+  display: flex;
+  gap: 11px;
+  margin-top: 30px;
+}
+
+.form-wrap {
+  z-index: 1;
+  flex: 1;
+}
+
+.form-wrapper {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  padding: 20px 10px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  column-gap: 26px;
+  flex-wrap: nowrap;
+  width: 100%;
+  align-items: center;
+}
+
+input[type="tel"] ,
+label:has(+ input[type="tel"]) {
+  display: none;
+}
+
+.dragArea {
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  color: #fff;
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  transition: border-color 0.3s;
+  margin-bottom: 20px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-bottom: 1px solid var(--color);
+}
+
+textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.check-form {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+.check-input {
+  margin-top: 3px;
+}
+
+.check-form a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.check-form a:hover {
+  text-decoration: underline;
+}
+
+.form-button {
+  background-color: var(--accent);
+  color:var(--price-color);
+  border: none;
+  border-radius: 50px;
+  padding: 13px 26px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.form-button:hover {
+  background-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+@media (max-width:425px){
+  .testimonial-quote{
+    font-size: 21px;
+  }
+}
+@media (max-width: 768px) {
+  .check-form{
+    font-size: 12px;
+  }
+}
+
+label {
+  white-space: nowrap;
+  display: block;
+  margin-bottom: 5px;
+  color: var(--text-color);
+  font-size: 16px;
+}
+
+
+footer {
+  background-color:#2d2b2b; 
+  padding: 25px;
+}
+
+.footer-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: white;  
+}
+.footer-menu{
+  display: flex;
+  flex: 2;
+  flex-wrap: wrap;
+  gap:  25px;
+  justify-content: center;
+  padding: 18px;
+}
+
+.footer-menu a{
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.footer-menu a:hover{
+  color: var(--accent); 
+}
+
+
+.footer-logo {
+  display: flex;
+  align-items: center; 
+  margin-top: 30px; 
+  text-align: center;
+  padding: 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 13px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer-logo a {   
+  text-decoration: none; 
+  font-weight: 500;
+}
+
+.footer-logo img {
+  width: 34px  
+}
+
+.pravicy {
+  background-color:var(--color);
+  color: var(--background);
+  padding: 95px 0;
+  font-size: 17px
+}
+
+.container-pravicy{
+  margin-top: 20px;
+  padding: 30px;
+  background-color: var(--text-color);
+  border-radius: 10px;
+}
+
+.content-pravicy p {
+    font-size: 17px;   
+    line-height: 1.6;  
+}
+.content-pravicy li {
+  margin-left: 20px;
+  margin-bottom: 20px; 
+  overflow-wrap: anywhere;
+} 
+
+.content-pravicy a {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 991px) {
+  .container-pravicy {
+    padding: 30px;       
+    }
+    .content-pravicy li{
+      margin-left: 15px;
+    }
+}
+
+    </style>
+        
+</head>
+<body>
+   
+ 
+
+
+    
+    <header class="header container">
+      <a href="./">
+        <div class="logo">
+          <img src="logo-main.svg">
+          <div>Herbologynuxo</div>
+        </div>
+      </a>
+      <div class="navbar">       
+        <div class="icon nav-icon menu-toggle" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        
+        <nav class="nav">
+            <ul class="nav-links">
+              <li class="nav-link active"><a href="./">Home</a></li>
+              <li class="nav-link"><a href="./#artical" >Our Services</a></li>                          
+              
+            </ul> 
+        </nav>
+        
+      </div>      
+  </header>
+  
+    <section class="pravicy">
+        <div class="inside-wt">
+            <div class="container container-pravicy">
+                <div class="content-block">
+                    <div class="content-pravicy"><div id="privacy-policy-container">
+  <section class="introduction">
+    <h2>Privacy Policy for Herbologynuxo</h2>
+    <p>Welcome to the Privacy Policy for Herbologynuxo, effective as of 06.23.2026. This document aims to thoroughly explain how we handle personal data and digital tracking technologies on our website. Our policy adheres to applicable privacy regulations and legal requirements across various jurisdictions, including the California Consumer Privacy Act (CCPA) in the United States, and incorporates relevant guidance from the General Data Protection Regulation (GDPR) where appropriate. We are committed to transparency regarding the data we collect, its processing and security, and your rights concerning this information.</p>
+    <p>We urge all visitors to carefully review this policy to gain a clear understanding of our data handling practices. Our dedication is to safeguard your privacy and provide you with comprehensive insight into our operational practices.</p>
+  </section>
+
+  <section class="data-collection">
+    <h3>Information Gathering and Application</h3>
+    <p>When you interact with our website, we may collect various details, including your browser type, device specifics, website engagement patterns, and preferences. This information is leveraged to:</p>
+    <ul>
+      <li>Enhance website functionality and user interaction.</li>
+      <li>Analyze web traffic and assess the efficacy of our marketing initiatives.</li>
+      <li>Tailor content, special offers, and advertisements to better match your individual interests.</li>
+      <li>Monitor and bolster the security posture of our website.</li>
+    </ul>
+    <p>Data gathered is compiled for statistical and analytical purposes and is securely stored within our systems. We are committed to ensuring that all personal information is processed in strict compliance with relevant data protection legislation. For further details or to exercise your rights under these regulations, please consult the pertinent sections of this policy.</p>
+  </section>
+
+  <section class="user-rights">
+    <h3>Your Privacy Rights and Control Options</h3>
+    <p>At Herbologynuxo, safeguarding your data privacy is paramount. Consequently, you possess several fundamental rights concerning the information collected, stored, and processed:</p>
+    <ol>
+      <li>
+        <strong>Right to Information:</strong> You are entitled to receive clear details about the categories of personal data gathered, the objectives for processing this data, and the methodologies employed in handling your information. Further specifics are provided within this policy.
+      </li>
+      <li>
+        <strong>Right of Access:</strong> You have the prerogative to request a copy of the personal data we maintain about you. Upon receiving a valid request, we will furnish a summary of the data we have collected.
+      </li>
+      <li>
+        <strong>Right to Erasure:</strong> You may request the permanent deletion of personal data, contingent upon identity verification and adherence to legal mandates. We pledge to process such deletion requests promptly, unless legitimate reasons for retention exist.
+      </li>
+      <li>
+        <strong>Right to Restrict Processing:</strong> Under specific circumstances, you can ask for limitations on how your data is processed, particularly if you dispute its accuracy.
+      </li>
+      <li>
+        <strong>Right to Withdraw Consent:</strong> You have the option to revoke your consent for certain data processing activities at any point. This withdrawal will not invalidate any lawful processing carried out prior to your request.
+      </li>
+      <li>
+        <strong>Right to Object:</strong> You are entitled to object to the processing of your data, including its use for targeted advertising or profiling, whenever applicable.
+      </li>
+    </ol>
+    <p>These rights can be exercised by utilizing the interactive tools provided on our website or by contacting us directly. We guarantee that every request will be processed in accordance with current data protection standards.</p>
+  </section>
+
+  <section class="data-security">
+    <h3>Data Security Measures and Retention Practices</h3>
+    <p>Herbologynuxo is dedicated to ensuring that your data is processed securely and maintained in a protected environment. This data is managed under rigorous security protocols, encompassing regular audits, robust encryption methodologies, and strict access control mechanisms.</p>
+    <p>We retain data only for the duration necessary to fulfill the objectives outlined in this policy or to comply with applicable legal, regulatory, or archival obligations. Once the data is no longer required, we promptly anonymize or delete it in line with our internal data retention policies.</p>
+    <p>In the unlikely event of a data breach or any unforeseen security incident, we are prepared to conduct a rapid risk assessment and notify affected users as mandated by relevant legislative frameworks. We consistently strive to uphold compliance with all pertinent prudential measures governing data protection.</p>
+  </section>
+
+  <section class="policy-updates">
+    <h3>Revisions to Our Privacy Policy</h3>
+    <p>As privacy legislation and digital methodologies evolve, Herbologynuxo may periodically update this Privacy Policy to reflect new requirements, technological advancements, and operational adjustments. All revisions will be communicated to our users through suitable channels and will be prominently displayed on our website.</p>
+    <p>We recommend regular review of this policy. Your continued use of our website subsequent to any modifications indicates your acceptance of the updated terms. The currently effective version of this policy is always identified by the date 06.23.2026 and constitutes an integral component of our broader privacy commitments.</p>
+  </section>
+
+  <section class="disclaimer">
+    <h3>Important Disclaimer and Legal Considerations</h3>
+    <p>The information presented in this Privacy Policy is solely for educational purposes and should not be construed as legal advice. Herbologynuxo endeavors to ensure this policy aligns with current regulations and best practices. However, as the digital landscape and legal frameworks are subject to change, we recommend you regularly consult this document and seek independent legal counsel if you have any concerns regarding our privacy practices or how data protection laws might impact your rights.</p>
+    <p>Should you have any uncertainties about the security or management of your personal data, we encourage you to consult appropriate resources concerning privacy management. Our commitment to your privacy is intrinsically linked to our ongoing efforts to bolster site security and transparency in data processing.</p>
+  </section>
+
+  <section class="final-considerations">
+    <h3>General Considerations</h3>
+    <p>By interacting with our website, you acknowledge that you have read and comprehended our Privacy Policy. Your continued engagement with the site signifies your agreement with our data handling practices. We pride ourselves on cultivating an environment that respects your privacy while delivering a customized online experience.</p>
+    <p>For further details or clarification concerning our data handling practices, please contact us directly. We value your trust and are dedicated to ensuring your visit to Herbologynuxo is secure, efficient, and fully transparent.</p>
+    <p>This comprehensive Privacy Policy has been meticulously developed in accordance with the highest benchmarks for data privacy and security protocols. The particulars provided herein reflect our policy at the time of its publication, and we remain steadfast in adapting our practices in response to new legal developments and technological innovations.</p>
+  </section>
+</div></div>
+                </div>
+            </div>            
+        </div>
+    </section>
+
+
+  
+<footer>
+  <div class="footer-container">
+    <div class="footer-menu">
+        <a href="policy.html">Privacy policy</a>
+        <a href="terms.html">Terms & Conditions</a>
+        <a href="disclaimer.html">Disclaimer</a>
+    </div> 
+    <div class="footer-logo">
+      <a class="logo" href="./">
+        <img src="logo-main.svg">
+        Herbologynuxo 
+      </a>  
+      &copy; 2026 
+          
+    </div>
+  </div>
+</footer>     
+   
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+        const header = document.querySelector('header'); 
+        window.addEventListener('scroll', function () {
+            if (window.scrollY > 50) { 
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    });
+
+
+    const icons = document.querySelectorAll('.icon');
+    icons.forEach (icon => {  
+      icon.addEventListener('click', (event) => {
+      icon.classList.toggle("active");
+  });
+    });    
+    function toggleMenu() {
+      const navLinks = document.querySelector('.nav');
+      navLinks.classList.toggle('active');
+  }
+  
+    </script>
+
+    </body>
+</html>
